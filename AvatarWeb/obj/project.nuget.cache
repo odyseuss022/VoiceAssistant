@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "7szfnl0eAIw=",
+  "success": true,
+  "projectFilePath": "C:\\toolbox\\TestBot\\VoiceClient\\AvatarWeb\\VoiceClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\odyse\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\odyse\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\odyse\\.nuget\\packages\\naudio\\2.1.0\\naudio.2.1.0.nupkg.sha512",
+    "C:\\Users\\odyse\\.nuget\\packages\\naudio.asio\\2.1.0\\naudio.asio.2.1.0.nupkg.sha512",
+    "C:\\Users\\odyse\\.nuget\\packages\\naudio.core\\2.1.0\\naudio.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\odyse\\.nuget\\packages\\naudio.midi\\2.1.0\\naudio.midi.2.1.0.nupkg.sha512",
+    "C:\\Users\\odyse\\.nuget\\packages\\naudio.wasapi\\2.1.0\\naudio.wasapi.2.1.0.nupkg.sha512",
+    "C:\\Users\\odyse\\.nuget\\packages\\naudio.winforms\\2.1.0\\naudio.winforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\odyse\\.nuget\\packages\\naudio.winmm\\2.1.0\\naudio.winmm.2.1.0.nupkg.sha512",
+    "C:\\Users\\odyse\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\odyse\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\odyse\\.nuget\\packages\\vosk\\0.3.38\\vosk.0.3.38.nupkg.sha512",
+    "C:\\Users\\odyse\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.55\\microsoft.windows.sdk.net.ref.10.0.19041.55.nupkg.sha512"
+  ],
+  "logs": []
+}

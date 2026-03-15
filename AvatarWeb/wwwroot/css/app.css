@@ -1,0 +1,119 @@
+/* ── Reset & full-screen body ───────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  width: 100%; height: 100%;
+  overflow: hidden;
+  background: #0a0a10;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+/* ── Avatar fills the entire viewport ──────────────────────────────────── */
+#avatar {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Three.js puts a <canvas> inside #avatar — make it fill too */
+#avatar canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* ── Bottom overlay — status + transcript ───────────────────────────────── */
+#overlay {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  padding: 12px 24px 20px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.65) 40%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+#transcript {
+  color: rgba(255,255,255,0.75);
+  font-size: 0.85rem;
+  text-align: center;
+  max-width: 680px;
+  min-height: 1.2em;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+#status {
+  color: rgba(255,255,255,0.55);
+  font-size: 0.75rem;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+/* Pulsing dot shown when listening */
+#status.listening::before {
+  content: '';
+  display: inline-block;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: #e05;
+  margin-right: 6px;
+  animation: pulse 1s ease-in-out infinite;
+  vertical-align: middle;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.4; transform: scale(0.8); }
+}
+
+/* ── Start screen — centered button shown before first click ─────────────── */
+#start-screen {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(6px);
+  z-index: 20;
+  transition: opacity 0.4s ease;
+}
+
+#start-screen.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#btn-start {
+  padding: 18px 52px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #6e40c9, #3a7bd5);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s;
+  letter-spacing: 0.05em;
+}
+
+#btn-start:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+}
+
+#btn-start:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+#btn-start:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

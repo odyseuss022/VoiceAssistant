@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\toolbox\\TestBot\\VoiceClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{173B4C68-A42F-4AE5-8670-E057FA6AF988}|AvatarWeb\\VoiceClient.csproj|c:\\toolbox\\testbot\\voiceclient\\avatarweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{173B4C68-A42F-4AE5-8670-E057FA6AF988}|AvatarWeb\\VoiceClient.csproj|solutionrelative:avatarweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173B4C68-A42F-4AE5-8670-E057FA6AF988}|AvatarWeb\\VoiceClient.csproj|c:\\toolbox\\testbot\\voiceclient\\avatarweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{173B4C68-A42F-4AE5-8670-E057FA6AF988}|AvatarWeb\\VoiceClient.csproj|solutionrelative:avatarweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\toolbox\\TestBot\\VoiceClient\\AvatarWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "AvatarWeb\\appsettings.json",
+              "ToolTip": "C:\\toolbox\\TestBot\\VoiceClient\\AvatarWeb\\appsettings.json",
+              "RelativeToolTip": "AvatarWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-15T02:05:07.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\toolbox\\TestBot\\VoiceClient\\AvatarWeb\\Program.cs",
+              "RelativeDocumentMoniker": "AvatarWeb\\Program.cs",
+              "ToolTip": "C:\\toolbox\\TestBot\\VoiceClient\\AvatarWeb\\Program.cs",
+              "RelativeToolTip": "AvatarWeb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T18:02:42.192Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

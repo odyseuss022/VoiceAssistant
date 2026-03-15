@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voice Assistant</title>
+  <link rel="stylesheet" href="/css/app.css">
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "/js/three.module.js",
+      "three/addons/": "/js/addons/"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Full-screen 3D avatar canvas -->
+  <div id="avatar"></div>
+
+  <!-- Bottom overlay: transcript + status -->
+  <div id="overlay">
+    <div id="transcript"></div>
+    <div id="status">Loading…</div>
+  </div>
+
+  <!-- Single start button — disappears after first click -->
+  <div id="start-screen">
+    <button id="btn-start" disabled>⏳ Loading…</button>
+  </div>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
